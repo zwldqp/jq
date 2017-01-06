@@ -1,0 +1,19 @@
+/**
+ * Created by Administrator on 2017/1/6.
+ */
+$(function(){
+    $('.up').click(function(){
+        if(!$('#comment').is(':animated')){
+            $('#comment').animate({
+                scrollTop:'-=50'
+            })
+        }
+    })
+    $('.down').click(function(){
+        if(!$('#comment').is(':animated')){
+            $('#comment').animate({
+                scrollTop:'+=50'
+            })
+        }
+    })
+})
