@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+            height: 30px;
+            background: #eee;
+            box-shadow: 0 2px 2px #efeeed;
+        }
+        #container{
+            width: 720px;
+            height: 380px;
+            margin: 50px 100px;
+        }
+        ul li{
+            float: left;
+            background: #eee;
+            color: #669;
+            height: 27px;
+            line-height: 27px;
+            margin-top: 3px;
+            padding: 0 10px;
+        }
+        ul li.selected{
+            background: #fff;
+        }
+        div.selected{
+            display: block;
+        }
+        .sub-main{
+            width: 350px;
+            height: 90px;
+            padding:10px 0;
+            float: left;
+            margin-left: 5px;
+        }
+        .img{
+            width: 90px;
+            height: 90px;
+            background: #00f;
+            float: left;
+            margin-right: 5px;
+        }
+        .content{
+            width: 255px;
+            height: 90px;
+            float: left;
+        }
+        .content h6{
+            line-height: 20px;
+            height: 20px;
+            font-size: 20px;
+            color: #369;
+        }
+        .content p{
+            color: #666;
+            height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: pre-line;
+        }
+        .main{
+            display: none;
+        }
+        /*#container .select1{*/
+            /*display: none;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul>
+            <li class="selected">001</li>
+            <li>002</li>
+            <li>003</li>
+            <li>004</li>
+            <li>005</li>
+            <li>006</li>
+        </ul>
+        <div class="main selected" >
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+            <div class="sub-main">
+                <div class="img">
+                    <img src="" alt=""/>
+                </div>
+                <div class="content">
+                    <h6><a href="#">hhahahahha</a><span>(1000)</span></h6>
+                    <p>v没考上了都没v库房里面v肯定是疯了吗v发牢骚v买了；防盗门v考虑了点什么v两份代码v了</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="jquery-1.9.1.min.js"></script>
+    <script>
+        var index=0;
+        var timmer;
+//        $('li').on('click',function(){
+//            $(this).addClass('selected').siblings().removeClass('selected');
+//            $('.main').eq($(this).index()).show().siblings('.main').hide();
+//            index=$(this).index();
+//        });
+        $('li').on('click',function(){
+            $(this).addClass('selected').siblings().removeClass('selected');
+            $('.main').eq($(this).index()).show().siblings('.main').hide();
+            index = $(this).index();
+        });
+    </script>
+</body>
+</html>
