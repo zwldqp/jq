@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+
+        }
+        #teb{
+            margin: 100px 200px;
+        }
+        .a{
+            float: left;
+            width: 100px;
+            /*height: 40px;*/
+            display: block;
+            background: #cccccc;
+        }
+        .a>a{
+            background-image: url("images/down.gif");
+            background-repeat:no-repeat;
+            background-position:3px center;
+            /*text-indent: 20px;*/
+        }
+        .b li{
+            width: 100px;
+            /*height: 40px;*/
+            background: #eeeeee;
+            clear: both;
+        }
+        .b{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<ul id="teb">
+    <li class="a">
+        <a href="">&nbsp;菜单1</a>
+        <ul class="b">
+            <li><a href="">菜单10</a></li>
+            <li><a href="">菜单11</a></li>
+        </ul>
+    </li>
+    <li class="a">
+        <a href="">&nbsp;菜单2</a>
+        <ul class="b">
+            <li><a href="">菜单20</a></li>
+            <li><a href="">菜单21</a></li>
+        </ul>
+    </li >
+    <li class="a">
+        <a href="">&nbsp;菜单3</a>
+        <ul class="b">
+            <li><a href="">菜单30</a></li>
+            <li><a href="">菜单31</a></li>
+        </ul>
+    </li>
+</ul>
+<script src="jquery-1.9.1.min.js"></script>
+<script>
+    $('.a').hover(function(){
+//        $(this).children('ul').stop().slideDown();
+        $(this).children('a').css('background-image','url("images/up.gif")').end().children('ul').stop().slideDown('slow');
+    },function(){
+//        $(this).children('ul').stop().slideUp();
+        $(this).children('a').css('background-image','url("images/down.gif")').end().children('ul').stop().slideUp('slow');
+    })
+</script>
+</body>
+</html>
